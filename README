@@ -1,0 +1,19 @@
+This is a small library that rewrites a modules imports
+
+Why?
+I wanted to import readline callbacks, and there are very long
+discussions on when this will be available in core CPython.
+
+Also, an interesting opportunity to further my Python 3 knowledge
+
+Use / test:
+1. Create a new venv
+2. use pip to pull in testing-req.txt (requirements file)
+3. source the venv
+4. run the tests
+5. try out the turtle demo from the python docs (help is there too)
+   - quick start at the prompt:  playback spiral.cmd
+   - bye to quit
+6. launching turtle demo in pdb won't work (pdb loads cmd)
+   - workaround using comments at top of turtle demo program
+
